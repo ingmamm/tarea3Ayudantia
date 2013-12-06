@@ -1,0 +1,172 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass amsart
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Tarea N°3
+\end_layout
+
+\begin_layout Title
+Patrones de Diseño
+\end_layout
+
+\begin_layout Author
+Miguel Marabolí Méndez
+\end_layout
+
+\begin_layout Date
+06-12-2013
+\end_layout
+
+\begin_layout Section
+Patrones de Diseño
+\end_layout
+
+\begin_layout Standard
+Los patrones de diseño, son la base para la búsqueda de soluciones a problemas
+ comunes en el desarrollo de software y a otros ámbitos referentes al diseño
+ de interacción o interfaces.
+ Un patrón de diseño resulta ser una solución a un problema de diseño.
+ Para que una solución sea considerada, un patrón debe poseer ciertas caracterís
+ticas, una de ellas es que debe haber comprobado su efectividad resolviendo
+ problemas similares en ocasiones anteriores.
+ Otra es que debe ser reutilizable, lo que significa que es aplicable a
+ diferentes problemas de diseño en distintas circunstancias.
+ 
+\end_layout
+
+\begin_layout Standard
+Actualmente las características del software son que sea facil de usar,
+ que tenga variadas funcionalidades y que tenga una atractiva interfaz de
+ usuario.
+ Por lo tanto, es realmente necesario tener un patrón de como diseñar.
+\end_layout
+
+\begin_layout Standard
+Los principios del diseño tienen su origen en la teoría, la experiencia
+ y el sentido común.
+ Algunos descritos por Don Norman (1998) son:
+\end_layout
+
+\begin_layout Itemize
+Visibilidad: Si las funciones son visibles, serán usadas.
+\end_layout
+
+\begin_layout Itemize
+Retroalimentación: El principio de acción y reacción.
+  
+\end_layout
+
+\begin_layout Itemize
+Restricciones: Limitaciones en la interacción con el usuario, de manera
+ que pueden ser físicas, lógicas o culturales.
+ 
+\end_layout
+
+\begin_layout Itemize
+Mapeo: Relación entre los controles y sus efectos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Consistencia: Diseño basado en elementos similares.
+ 
+\end_layout
+
+\begin_layout Itemize
+Claridad: Entender cómo usar el diseño, puede ser real o percibida.
+\end_layout
+
+\begin_layout Standard
+Los objetivos de los patrones de diseño son reutilizar elementos del diseño
+ de software, no crear cosas que ya están hechas, tener un idioma común
+ entre desarrolladores, estandarizar el modo de diseñar software y facilitar
+ el aprendizaje para las generaciones venideras.
+ 
+\end_layout
+
+\begin_layout Standard
+Tipos de patrones: 
+\end_layout
+
+\begin_layout Itemize
+Patrones Creacionales 
+\end_layout
+
+\begin_layout Itemize
+Patrones Estructurales 
+\end_layout
+
+\begin_layout Itemize
+Patrones Comportamiento 
+\end_layout
+
+\begin_layout Itemize
+Patrones Interacción 
+\end_layout
+
+\end_body
+\end_document
