@@ -151,35 +151,38 @@ Los objetivos de los patrones de diseño son reutilizar elementos del diseño
 \begin_layout Standard
 Tipos de patrones: 
 \end_layout
-\begin{itemize} 
-\item Tipos de patrones: 
-\textbullet{} Patrones Creacionales: Object Pool 
-\textendash{} Abstract Factory 
-\textendash{} Builder 
-\textendash{} Factory Method 
-\textendash{} Prototype 
-\textendash{} Singleton. 
-\item Patrones Estructurales: Adapter o Wrapper 
-\textendash{} Bridge 
-\textendash{} Composite 
-\textendash{} Decorator 
-\textendash{} Facade 
-\textendash{} Flyweight 
-\textendash{} Proxy 
-\textendash{} Modulo. 
-\item Patrones Comportamiento: Chain of Responsibility 
-\textendash{} Command 
-\textendash{} Interpreter 
-\textendash{} Iterator 
-\textendash{} Mediator 
-\textendash{} Memento 
-\textendash{} Observer 
-\textendash{} State 
-\textendash{} Strategy 
-\textendash{} Template Method 
-\textendash{} Visitor. 
-\item Patrones Interacción: El primer intento por aplicar este concepto en el diseño de las interfaces de usuario se dio por Ward Cummingham y Kent Beck quienes adaptaron la propuesta de C. Alexander y crearon cinco patrones de interfaz: Window per task, Few panes, Standard panes, Nouns and verbs, y Short Menu. Los patrones de interacción buscan la reutilización de interfaces eficaces y un manejo óptimo de los recursos de las páginas web, haciendo más eficaz el consumo de tiempo en el diseño del sitio web y permitiendo a los programadores novatos adquirir más experiencia. 
-\end{itemize}
+
+\begin_layout Standard
+• Patrones Creacionales: Object Pool – Abstract Factory – Builder – Factory
+ Method – Prototype – Singleton.
+ 
+\end_layout
+
+\begin_layout Itemize
+Patrones Estructurales: Adapter o Wrapper – Bridge – Composite – Decorator
+ – Facade – Flyweight – Proxy – Modulo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Patrones Comportamiento: Chain of Responsibility – Command – Interpreter
+ – Iterator – Mediator – Memento – Observer – State – Strategy – Template
+ Method – Visitor.
+ 
+\end_layout
+
+\begin_layout Itemize
+Patrones Interacción: El primer intento por aplicar este concepto en el
+ diseño de las interfaces de usuario se dio por Ward Cummingham y Kent Beck
+ quienes adaptaron la propuesta de C.
+ Alexander y crearon cinco patrones de interfaz: Window per task, Few panes,
+ Standard panes, Nouns and verbs, y Short Menu.
+ Los patrones de interacción buscan la reutilización de interfaces eficaces
+ y un manejo óptimo de los recursos de las páginas web, haciendo más eficaz
+ el consumo de tiempo en el diseño del sitio web y permitiendo a los programador
+es novatos adquirir más experiencia.
+ 
+\end_layout
 
 \end_body
 \end_document
