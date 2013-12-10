@@ -2,7 +2,7 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass amsart
+\textclass article
 \use_default_options true
 \begin_modules
 theorems-ams
@@ -10,7 +10,7 @@ eqs-within-sections
 figs-within-sections
 \end_modules
 \maintain_unincluded_children false
-\language english
+\language spanish
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -74,7 +74,7 @@ Patrones de Diseño
 \end_layout
 
 \begin_layout Author
-Miguel Marabolí Méndez
+Adrian Gutierrez Gil Miguel Marabolí Méndez Valery Soto Lastra
 \end_layout
 
 \begin_layout Date
@@ -182,6 +182,103 @@ Patrones Interacción: El primer intento por aplicar este concepto en el
  el consumo de tiempo en el diseño del sitio web y permitiendo a los programador
 es novatos adquirir más experiencia.
  
+\end_layout
+
+\begin_layout Section
+Modelo Vista Controlador (MVC)
+\end_layout
+
+\begin_layout Standard
+Es una patrón de diseño en arquitectura de software, donde su particularidad
+ es separar los datos y los procedimientos de la interfaz del usuario en
+ una aplicación de software.
+ Con la ayuda de tres elementos distintos, que son definidos como Modelo
+ (Objeto de Negocio), la Vista (Interfaz de Usuario) y el Controlador (Controlad
+or del workflow de la aplicación) , estos componentes interactúan entre
+ si con un flujo de datos constante administrados por el controlador del
+ sistema.
+\end_layout
+
+\begin_layout Standard
+Los componentes del patrón se pueden definir de la siguiente manera:
+\end_layout
+
+\begin_layout Standard
+Modelo: Es la representación de la información del sistema, por lo que es
+ quien administra el acceso a dichos datos, opera junto a la lógica de negocio
+ y este es quien recibe la información entregada por el modelo.
+ Y también envía a la vista la información solicitada pro esta para ser
+ desplegada en ella..
+ Pero toda solicitud de acceso y manipulación a esta información del sistema
+ se realiza a través del controlador.
+ 
+\end_layout
+
+\begin_layout Standard
+Vista: Es la parte de la aplicación que representa la información solicitada
+ en el modelo de forma adecuada a la necesidad del usuario, el cual interactúa
+ con ella (es conocido como la interfaz de usuario), por lo que este sistema
+ funciona como la mayor parte del tiempo en la salida del sistema.
+\end_layout
+
+\begin_layout Standard
+Controlador: Es el sector donde el sistema responde a los eventos (generados
+ por el usuario), y realiza las peticiones al modelo cuando se necesario.
+ También interactúa con la vista cuando esta necesita realizar una petición
+ al modelo como representante de este, es por quien también administra todo
+ flujo de información en el sistema.
+ Es la parte fundamental del sistema por donde se establecen todos los procesos
+ necesarios para realizar las interacciones de las distintas partes del
+ sistema.
+\end_layout
+
+\begin_layout Standard
+Algunas de las ventajas de implementar este tipo de patrón de diseño son:
+\end_layout
+
+\begin_layout Itemize
+Facilita la evolución de la evolución de la lógica de Negocio y la Interfaz
+ del Usuario 
+\end_layout
+
+\begin_layout Itemize
+Incrementa la reutilización y la flexibilidad 
+\end_layout
+
+\begin_layout Itemize
+Permite encapsular los datos y sus procesos de la Interfaz.
+ 
+\end_layout
+
+\begin_layout Section
+Ejemplo
+\end_layout
+
+\begin_layout Standard
+El Modelo MVC separa el programa en 3 secciones Modelo, Vista y Controlador,
+ este ultimo es el encargado de establecer una conecion entre la Vista(lo
+ que el usuario ve en la pantalla) y el Modelo(donde se lee o se guarda
+ la informacion).
+\end_layout
+
+\begin_layout Standard
+Esto perimite que el codigo sea mas mantenible, ya que se puede modificar
+ cualquiera de las secciones sin afectar a las demas.
+\end_layout
+
+\begin_layout Section
+Anexos
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Repositorio"
+target "https://github.com/ingmamm/tarea3Ayudantia"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
